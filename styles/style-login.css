@@ -64,6 +64,16 @@ html {
   line-height: normal;
 }
 
+.login-input {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  top: 55px;
+  right: 20px;
+}
+
 
 form {
   display: flex;
@@ -103,7 +113,7 @@ input:hover {
 
 
 
-button {
+.button-click {
   display: flex;
   width: 400px;
   height: 54px;
