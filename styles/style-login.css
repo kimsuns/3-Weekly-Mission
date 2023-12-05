@@ -170,7 +170,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/signin/icon/google.svg);
+  background-image: url(/images/signin/icon/google-bg.svg);
+  background-position: center center;
+  background-size: cover;
   height: 42px;
   position: relative;
 }
@@ -179,7 +181,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/signin/icon/facebook.svg);
+  background-image: url(/images/signin/icon/kakao-bg.svg);
+  background-position: center center;
+  background-size: cover;
  
   height: 42px;
   position: relative;
