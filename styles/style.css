@@ -26,7 +26,7 @@ header {
 }
 
 
-.main {
+.main-space {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,14 +171,14 @@ button:hover {
   line-height: 150%; /* 24px */
 }
 
-.section-title.num1 span{
+.section-title.wish-link span{
   background: linear-gradient(96deg, #FE8A8A 1.72%, #A4CEFF 74.97%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.section-title.num2 span{
+.section-title.manage span{
   background: linear-gradient(277deg, #6FBAFF 59.22%, #FFD88B 93.66%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -191,7 +191,7 @@ button:hover {
   letter-spacing: -0.3px;
 }
 
-.section-title.num3 span{
+.section-title.share span{
   background: linear-gradient(99deg, #6D7CCD 19.76%, rgba(82, 136, 133, 0.22) 52.69%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -203,7 +203,7 @@ button:hover {
   line-height: normal;
 }
 
-.section-title.num4 span{
+.section-title.search span{
   background: var(--fandom-k-gra-blue-to-pink, linear-gradient(271deg, #FE578F -9.84%, #68E8F9 107.18%));
   background-clip: text;
   -webkit-background-clip: text;
